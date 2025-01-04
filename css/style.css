@@ -610,31 +610,6 @@ p {
   animation-name: rubberBand;
 }
 
-.success-card {
-  position: fixed;
-  right: 25px;
-  bottom: 70px;
-  width: 320px;
-  height: 100px;
-  background: darkgreen;
-  border-radius: 1000px;
-  display: none;
-}
-
-.success-card .text {
-  color: white;
-  padding: 12px;
-}
-
-.success-card .text h3 {
-  color: #ff771c;
-  text-align: center;
-}
-
-.success-card .text p {
-  text-indent: 10px;
-}
-
 @media (max-width: 1199px) {
   .skill-box {
     max-height: 255px;
