@@ -135,6 +135,7 @@ p {
 }
 
 #about .container .row .image {
+  padding-top: 15px;
   width: 450px;
 }
 
@@ -143,7 +144,7 @@ p {
 }
 
 #about .container .row .text {
-  padding-top: 35px;
+  padding-top: 0px;
 }
 
 #about .container .row .text h1 {
@@ -156,6 +157,14 @@ p {
   color: white;
   font-size: 18px;
   margin-top: 30px;
+  font-weight: 400;
+}
+
+#about .container .row figure figcaption {
+  margin: 0;
+  color: white;
+  font-size: 10px;
+  margin-top: 3px;
   font-weight: 400;
 }
 
@@ -344,7 +353,7 @@ p {
   position: relative;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  height: 420px;
+  height: 600px;
   background: #131617;
   border-radius: 5%;
 }
@@ -379,7 +388,7 @@ p {
 }
 
 #projects .container .lower-row .owl-carousel .item .outer-cardholder a .cardholder .text {
-  padding: 20px;
+  padding: 15px;
 }
 
 #projects .container .lower-row .owl-carousel .item .outer-cardholder a .cardholder .text h2 {
@@ -389,14 +398,25 @@ p {
 
 #projects .container .lower-row .owl-carousel .item .outer-cardholder a .cardholder .text .description {
   margin: 0;
-  margin-top: 10px;
+  cursor: pointer;
+}
+
+#projects .container .lower-row .owl-carousel .item .outer-cardholder a .cardholder .tags2 {
+  position: absolute;
+  top: 90%;
+  right: 5%;
+  margin: 0;
+  width: 35%;
+  text-align: center;
+  border: solid 1px white;
+  border-radius: 1000px;
   cursor: pointer;
 }
 
 #projects .container .lower-row .owl-carousel .item .outer-cardholder a .cardholder .tags {
   position: absolute;
   top: 90%;
-  right: 5%;
+  left: 5%;
   margin: 0;
   width: 30%;
   text-align: center;
@@ -419,6 +439,12 @@ p {
 
 #contact .container .row .text h1 {
   color: #ff771c;
+  text-align: center;
+}
+
+#contact .container .row .text h5 {
+  color: #1c7bff;
+  padding: 10px;
   text-align: center;
 }
 
@@ -446,6 +472,7 @@ p {
 }
 
 #footer .container .row .icons {
+  margin-left: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -478,7 +505,7 @@ p {
   color: white;
   line-height: 3em;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
 }
 
 #footer .container .row .text p span {
